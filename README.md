@@ -16,8 +16,13 @@ Documentation for accessing the a granular access database and testing granular 
 - Items <em> (Her kan du se de forskellige produkter der tilbydes) <em>
 - Orders <em> (Her kan du se <em> **dine** ordre<em>) <em>
 - OrderItems <em>(En ordre kan have flere varer, derfor kan du her se varerne der hører til <em>**dine**<em> ordre)<em>
+- OrderItemsProduced <em>(<em>**Dine** <em>ordre der er færdigt produceret kan findes her, samt deres status på levering)<em>
  
+### Insert
 
+
+
+### Update
 
 
 
