@@ -19,14 +19,23 @@ Documentation for accessing the a granular access database and testing granular 
 - OrderItemsProduced <em>(<em>**Dine** <em>ordre der er færdigt produceret kan findes her, samt deres status på levering)<em>
  
 ### Insert
-  - Orders
+  - Orders <em>(Der er ingen værdier der alle er auto sat)<em>
     ~~~~sql
-      INSERT
+      INSERT INTO ORDERS
+    ~~~~
+  - OrderItems <em>(Brug OrderId fra **din** ordre brug select til at finde dette)<em>
+    ~~~~sql
+      INSERT INTO OrderItems (OrderID, ItemID, Quantity, Colors)
+      VALUES (OrderID, ItemID, Quantity, Colors)
     ~~~~
 
-
 ### Update
-
+  - OrderItems
+    ~~~~sql
+      UPDATE OrderItems (Colors)
+      VALUES (Colors)
+      WHERE ORDERITEMSID = (Your OrderItemId)
+    ~~~~
 
 
 ### Color Scheme
