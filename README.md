@@ -15,6 +15,7 @@ Documentation for accessing the a granular access database and testing granular 
 ### Select
 - Items <em> (Her kan du se de forskellige produkter der tilbydes) <em>
 - Orders <em> (Her kan du se <em> **dine** ordre<em>) <em>
+- OrderItems <em>(En ordre kan have flere varer, derfor kan du her se varerne der hører til **din** ordre)<em>
  
 
 
